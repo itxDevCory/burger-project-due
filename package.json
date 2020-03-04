@@ -1,26 +1,26 @@
 {
-  "name": "burger-project-due",
+  "name": "burger",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "dependencies": {
-    "body-parser": "^1.19.0",
-    "express": "^4.17.1",
-    "express-handlebars": "^3.1.0",
-    "mysql": "^2.18.1"
-  },
-  "devDependencies": {},
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/itxDevCory/burger-project-due.git"
+    "url": "git+https://github.com/hannalip/burger.git"
   },
-  "author": "cory suida",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/itxDevCory/burger-project-due/issues"
+    "url": "https://github.com/hannalip/burger/issues"
   },
-  "homepage": "https://github.com/itxDevCory/burger-project-due#readme"
+  "homepage": "https://github.com/hannalip/burger#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "mysql": "^2.18.1"
+  }
 }
